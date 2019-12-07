@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=o\ e1\ e2
+comment0.target=BinOp(java.lang.String,\ Expression,\ Expression)
+comment0.text=\n\ Represents\ a\ Binary\ operation\n\ @param\ e1\ is\ the\ first\ expression\n\ @param\ e2\ is\ the\ second\ expression\n\ @param\ o\ is\ the\ string\ that\ holds\ the\ operator\n\ \n
+comment1.params=env
+comment1.target=int\ eval(Environment.Environment)
+comment1.text=\n\ Evaluates\ a\ Binary\ Operation\n\ @return\ an\ integer\ representing\ what\ the\ Expression\ evaluates\ to\n\ @param\ env\ is\ the\ environment\ in\ which\ this\ statement\ is\ evaluated\ in\n
+numComments=2

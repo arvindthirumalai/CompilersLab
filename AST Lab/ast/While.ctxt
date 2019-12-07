@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=cond\ st
+comment0.target=While(Condition,\ Statement)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ While\n\ @param\ cond\ is\ the\ conditional\ statement\n\ @param\ st\ is\ the\ statement\ that\ is\ executed\ if\ the\ condition\ is\ true\n
+comment1.params=env
+comment1.target=void\ exec(Environment.Environment)
+comment1.text=\n\ Executes\ a\ while\ loop\n\ @param\ env\ is\ the\ environment\ in\ which\ this\ statement\ is\ executed\ in\n
+numComments=2

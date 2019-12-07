@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ScannerTester()
+comment0.text=\n\ Constructor\ for\ Objects\ of\ Class\ ScannerTester\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\n\ Uses\ an\ input\ file\ to\ test\ the\ scanner.\ \n\ @param\ args\ is\ the\ argument\n
+numComments=2

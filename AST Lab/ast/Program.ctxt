@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Program()
+comment1.params=statement
+comment1.target=void\ addStatement(Statement)
+comment2.params=procedure
+comment2.target=void\ addProcedure(ProcedureDeclaration)
+comment3.params=env
+comment3.target=void\ exec(Environment.Environment)
+numComments=4

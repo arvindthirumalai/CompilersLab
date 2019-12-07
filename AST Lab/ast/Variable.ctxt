@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=n
+comment0.target=Variable(java.lang.String)
+comment0.text=\n\ Constructs\ a\ variable\n\ @param\ n\ is\ the\ string\ name\ of\ the\ variable\n
+comment1.params=env
+comment1.target=int\ eval(Environment.Environment)
+comment1.text=\n\ Evaluates\ a\ variable\n\ @return\ the\ value\ of\ the\ evaluated\ expression\n\ @param\ env\ is\ the\ environment\n
+numComments=2

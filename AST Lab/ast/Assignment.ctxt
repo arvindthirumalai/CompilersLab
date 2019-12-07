@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=v\ e
+comment0.target=Assignment(java.lang.String,\ Expression)
+comment0.text=\n\ Constructor\n\ @param\ v\ is\ the\ string\ to\ represent\ the\ expression\n\ @param\ e\ is\ the\ expression\ \n
+comment1.params=env
+comment1.target=void\ exec(Environment.Environment)
+comment1.text=\n\ Executes\ an\ assignment\ statement\n\ @param\ env\ is\ the\ environment\n
+numComments=2

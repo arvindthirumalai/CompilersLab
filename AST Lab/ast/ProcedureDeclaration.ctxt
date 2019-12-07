@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=id\ arr\ stmt
+comment0.target=ProcedureDeclaration(java.lang.String,\ java.util.ArrayList,\ Statement)
+comment0.text=\n\ Constructor\n
+comment1.params=
+comment1.target=java.util.ArrayList\ getVariables()
+comment2.params=
+comment2.target=Statement\ getStatement()
+comment3.params=env
+comment3.target=void\ exec(Environment.Environment)
+comment3.text=\n\ Executes\ the\ declaration\n
+numComments=4

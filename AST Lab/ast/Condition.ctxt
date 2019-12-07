@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=e1\ e2\ r
+comment0.target=Condition(Expression,\ Expression,\ java.lang.String)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Condition\n\ @param\ e1\ is\ the\ first\ part\ of\ the\ conditional\ statement\n\ @param\ e2\ is\ the\ second\ part\ of\ the\ conditional\ statement\n\ @param\ r\ is\ the\ comparative\ operator\n
+comment1.params=env
+comment1.target=int\ eval(Environment.Environment)
+comment1.text=\n\ Evaluates\ a\ condition\n\ @param\ env\ is\ the\ environment\n\ @return\ 0\ if\ true,\ 1\ if\ false.\n
+numComments=2

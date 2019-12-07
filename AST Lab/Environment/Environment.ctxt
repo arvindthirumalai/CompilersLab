@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Environment()
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Environment\n
+comment1.params=v
+comment1.target=int\ getVariable(java.lang.String)
+comment1.text=\n\ Gets\ the\ variable\n\ @param\ v\ is\ the\ string\ representing\ the\ variable\n\ @return\ the\ variable\n
+comment2.params=var\ v
+comment2.target=void\ setVariable(java.lang.String,\ int)
+comment2.text=\n\ Sets\ the\ variable\n\ @param\ var\ is\ the\ string\ representing\ the\ variable\n\ @param\ v\ is\ the\ integer\ the\ variable\ is\ set\ to\n
+comment3.params=var\ pd
+comment3.target=void\ setProcedure(java.lang.String,\ ProcedureDeclaration)
+comment4.params=v
+comment4.target=ProcedureDeclaration\ getProcedure(java.lang.String)
+numComments=5

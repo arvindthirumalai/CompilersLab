@@ -1,0 +1,41 @@
+#BlueJ class context
+comment0.params=inStream
+comment0.target=Scanner(java.io.InputStream)
+comment0.text=\n\ Scanner\ constructor\ for\ construction\ of\ a\ scanner\ that\ \n\ uses\ an\ InputStream\ object\ for\ input.\ \ \n\ Usage\:\ \n\ FileInputStream\ inStream\ \=\ new\ FileInputStream(new\ File(<file\ name>);\n\ Scanner\ lex\ \=\ new\ Scanner(inStream);\n\ @param\ inStream\ the\ input\ stream\ to\ use\n
+comment1.params=inString
+comment1.target=Scanner(java.lang.String)
+comment1.text=\n\ Scanner\ constructor\ for\ constructing\ a\ scanner\ that\ \n\ scans\ a\ given\ input\ string.\ \ It\ sets\ the\ end-of-file\ flag\ an\ then\ reads\n\ the\ first\ character\ of\ the\ input\ string\ into\ the\ instance\ field\ currentChar.\n\ Usage\:\ Scanner\ lex\ \=\ new\ Scanner(input_string);\n\ @param\ inString\ the\ string\ to\ scan\n
+comment10.params=
+comment10.target=java.lang.String\ scanOperand()
+comment10.text=\n\ Method\:\ scanOperand\n\ Scans\ characters\ from\ the\ input\ stream\ and\ checks\ if\ \n\ it\ constitutes\ an\ operand.\n\ @return\ the\ operand;\ otherwise\ if\ an\ operand\ is\ not\ recognized,\ \n\ an\ error\ is\ thrown.\n\ @throws\ ScanErrorException\ if\ an\ illegal\ character\ is\ found.\n
+comment11.params=ch
+comment11.target=boolean\ isOperand(char)
+comment11.text=\n\ Method\:\ isOperand\n\ Checks\ to\ see\ if\ the\ character\ is\ an\ operand\n\ @param\ ch\ is\ the\ character\ to\ check\n\ @return\ true\ if\ ch\ is\ an\ operand;\ otherwise,\n\ \ \ \ \ \ \ \ \ false.\n
+comment12.params=
+comment12.target=java.lang.String\ nextToken()
+comment12.text=\n\ Method\:\ nextToken\n\ Scans\ through\ every\ character\ in\ the\ input\ stream\ to\ determine\ whether\ the\ \n\ characters\ constitute\ an\ identifier,\ digit,\ or\ operand.\ \n\ @return\ a\ string\ that\ is\ either\ the\ number,\ letter\ or\ operand.\ "END"\ is\ returned\ \n\ if\ the\ end\ of\ the\ input\ stream\ has\ been\ reached.\n
+comment2.params=
+comment2.target=void\ getNextChar()
+comment2.text=\n\ Method\:\ getNextChar\n\ Sets\ currentChar\ to\ the\ next\ character\ of\ the\ input\ string.\ \n\ If\ the\ end\ of\ the\ input\ string\ has\ been\ reached,\ eof\ is\ set\ \n\ to\ true.\ Furthermore,\ if\ an\ error\ is\ caught,\ the\ program\ is\ aborted.\n\ \n
+comment3.params=ch
+comment3.target=boolean\ isDigit(char)
+comment3.text=\n\ Method\:\ isDigit\n\ Checks\ to\ see\ if\ the\ parameter\ is\ a\ number\ between\ 0\ and\ 9.\n\ @param\ ch\ is\ the\ character\ that\ is\ checked.\ \n\ @return\ true\ if\ the\ character\ is\ a\ digit;\ otherwise,\n\ \ \ \ \ \ \ \ \ false.\n
+comment4.params=ch
+comment4.target=boolean\ isLetter(char)
+comment4.text=\n\ Method\:\ isLetter\n\ Checks\ to\ see\ if\ the\ parameter\ is\ a\ valid\ letter.\ Valid\ letters\ \n\ include\ lowercase\ and\ uppercase.\n\ @param\ ch\ is\ the\ character\ that\ is\ checked\n\ @return\ true\ if\ the\ letter\ is\ valid;\ otherwise,\n\ \ \ \ \ \ \ \ \ false.\n
+comment5.params=ch
+comment5.target=boolean\ isWhiteSpace(char)
+comment5.text=\n\ Method\:\ isWhiteSpace\n\ Checks\ to\ see\ if\ the\ character\ is\ a\ space\ or\ an\ escape\ sequence\n\ @param\ ch\ the\ character\ to\ be\ checked\n\ @return\ true\ if\ the\ character\ is\ a\ space\ or\ escape\ sequence;\ otherwise,\n\ \ \ \ \ \ \ \ \ false.\n
+comment6.params=expected
+comment6.target=void\ eat(char)
+comment6.text=\n\ Method\:\ eat\n\ If\ the\ parameter\ is\ equal\ to\ the\ currentCharacter,\ the\ next\ character\ \n\ is\ retrieved\ from\ the\ input\ stream.\ Otherwise,\ a\ ScanErrorException\ will\ be\ thrown.\n\ @param\ expected\ the\ character\ to\ be\ checked\ if\ it's\ equal\ to\ the\ current\ character\n\ @throws\ ScanErrorException\ if\ an\ illegal\ character\ is\ found\n
+comment7.params=
+comment7.target=boolean\ hasNext()
+comment7.text=\n\ Method\:\ hasNext\n\ Checks\ to\ see\ if\ we\ have\ reached\ the\ end\ of\ the\ input\ stream.\ \n\ @return\ true\ if\ the\ end\ of\ the\ file\ has\ not\ been\ reached;\ otherwise,\n\ \ \ \ \ \ \ \ \ false.\n
+comment8.params=
+comment8.target=java.lang.String\ scanIdentifier()
+comment8.text=\n\ Method\:\ scanIdentifier\n\ Scans\ characters\ from\ the\ input\ stream\ to\ make\ sure\ they\ follow\ the\ \n\ regular\ expressions\ that\ define\ an\ identifier.\n\ @return\ a\ string\ representing\ the\ lexeme;\ otherwise\ an\ error\ is\ thrown.\ \n\ @throws\ ScanErrorException\ if\ an\ illegal\ character\ is\ found\n
+comment9.params=
+comment9.target=java.lang.String\ scanNumber()
+comment9.text=\n\ Method\:\ scanNumber\n\ Scans\ characters\ from\ the\ input\ stream\ to\ check\ if\ it\ constitutes\ a\ number\n\ @return\ a\ string\ representing\ the\ number.\n\ @throws\ ScanErrorException\ if\ an\ illegal\ character\ is\ found\ in\ the\ eat\ method.\n
+numComments=13

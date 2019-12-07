@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=con\ s
+comment0.target=If(Condition,\ Statement)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ If\n\ @param\ con\ is\ the\ conditional\ statement\ in\ the\ if\ statement\n\ @param\ s\ is\ the\ statement\ that\ is\ executed\ if\ the\ conditional\ is\ true\n
+comment1.params=env
+comment1.target=void\ exec(Environment.Environment)
+comment1.text=\n\ Executes\ an\ if\ statement\n\ @param\ env\ is\ the\ environment\ in\ which\ this\ statement\ is\ executed\ in\n
+numComments=2

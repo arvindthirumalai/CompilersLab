@@ -12,7 +12,7 @@ BEGIN
 	WHILE x < 10 DO
 	BEGIN
 		WRITELN(x);
-		x := x + 2;
+		x := x + 1;
 	END;
 	
 END;
